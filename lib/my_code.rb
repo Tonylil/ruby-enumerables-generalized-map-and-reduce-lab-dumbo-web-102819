@@ -12,5 +12,11 @@ def map(source_array)
 end
 
 def reduce(array, startingPoint = 0)
-  return 0
+  i = 0 
+  while i < array.length do
+    startingPoint += array[i]
+    
+  end
+  
+  return startingPoint
 end
