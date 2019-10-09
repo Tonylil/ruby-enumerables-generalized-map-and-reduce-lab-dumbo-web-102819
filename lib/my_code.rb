@@ -19,8 +19,8 @@ def reduce(array, startingPoint = 0)
     tempVar = yield(tempVar, array[i])
     i += 1
   end
-  temp = 0
-  temp = temp || false
+  temp = true
+  temp = temp || 0
   puts "YOLO #{temp}"
   return tempVar
 end
