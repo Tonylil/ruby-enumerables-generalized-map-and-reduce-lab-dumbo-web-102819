@@ -4,10 +4,10 @@ def map(source_array)
   new = []
   i = 0
   while i < source_array.length do
-    tempvar = source_array[i]
-    puts tempvar
-    yield(tempvar)
-    new.push(tempvar) 
+    n = source_array[i]
+    puts n
+    yield(n)
+    new.push(n) 
     i += 1
   end
   return new
