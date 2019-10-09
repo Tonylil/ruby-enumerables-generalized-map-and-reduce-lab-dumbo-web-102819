@@ -16,7 +16,7 @@ def reduce(array, startingPoint = 0)
   i = 0 
   while i < array.length do
     tempVar += yield(tempVar, array[i])
-    
+    i++
   end
   
   return startingPoint
