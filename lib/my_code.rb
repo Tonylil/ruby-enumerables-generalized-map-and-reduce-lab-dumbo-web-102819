@@ -12,9 +12,10 @@ def map(source_array)
 end
 
 def reduce(array, startingPoint = 0)
+  tempVar = startingPoint
   i = 0 
   while i < array.length do
-    startingPoint += array[i]
+    tempVar += yield(tempVar, array[i])
     
   end
   
