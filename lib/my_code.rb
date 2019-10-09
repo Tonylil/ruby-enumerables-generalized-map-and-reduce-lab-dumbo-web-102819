@@ -11,7 +11,7 @@ def map(source_array)
   return new
 end
 
-def reduce(array, startingPoint = 0)
+def reduce(array, startingPoint = 1)
   tempVar = startingPoint
   i = 0 
   while i < array.length do
@@ -23,5 +23,6 @@ def reduce(array, startingPoint = 0)
   temp = true
   temp = 0 || temp
   puts "YOLO #{temp}"
+  tempVar -= 1
   return tempVar
 end
