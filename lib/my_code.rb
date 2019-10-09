@@ -21,7 +21,7 @@ def reduce(array, startingPoint = 0)
     i += 1
   end
   temp = true
-  temp = temp || 0
+  temp = 0 || temp
   puts "YOLO #{temp}"
   return tempVar
 end
