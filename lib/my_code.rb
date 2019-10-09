@@ -3,7 +3,7 @@
 def map(array1)
   new = []
   i = 0
-  while i < source_array.length d
+  while i < source_array.length do
     tempvar = source_array[i]
     yield(tempvar)
     new.push(tempvar) 
