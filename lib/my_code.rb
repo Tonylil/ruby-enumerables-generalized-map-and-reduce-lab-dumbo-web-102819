@@ -10,3 +10,7 @@ def map(source_array)
   end
   return new
 end
+
+def reduce()
+  
+end
