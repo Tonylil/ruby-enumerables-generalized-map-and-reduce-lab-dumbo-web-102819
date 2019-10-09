@@ -20,5 +20,5 @@ def reduce(array, startingPoint = 0)
     i += 1
   end
   
-  return startingPoint
+  return tempVar
 end
