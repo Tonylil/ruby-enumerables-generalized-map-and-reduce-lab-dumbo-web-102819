@@ -1,5 +1,5 @@
 # Your Code Here
 
-def map(array1, secondArg)
+def map(array1)
   yield(array1)
 end
